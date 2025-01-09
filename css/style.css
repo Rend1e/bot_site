@@ -169,15 +169,31 @@ button:hover{
     color: rgb(54, 67, 100);
   }
   
-  .popup--open {
-    display: flex;
-  }
 #reg{
     display: none;
     text-align: center;
 }
+#get_reg{
+  text-align: center;
+  width: 40%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--tg-theme-button-color);
+  background: var(--tg-theme-button-text-color);
+}
+#get_reg:hover {
+  transform: scale(1.05);
+}
+#get_reg:focus{
+  border-color: grey
+}
+#get_reg:active{
+  border-color: grey
+}
 input{
-    width: 90%;
+    width: 70%;
     outline: none;
     margin: 10px 5%;
     padding: 15px 10px;
