@@ -2,6 +2,7 @@ let tg = window.Telegram.WebApp;
 let buy = document.getElementById("buy");
 let get_reg = document.getElementById("get_reg");
 let popup_close = document.getElementById("popup_close");
+tg.expand();
         
 buy.addEventListener("click", () => {
   document.getElementById("main").style.display = "none";
